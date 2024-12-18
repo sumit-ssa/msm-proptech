@@ -1,4 +1,10 @@
+import { useEffect } from "react";
+
 const Privacy = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="bg-gray-100 py-20">
       <div className="container mx-auto px-6">
