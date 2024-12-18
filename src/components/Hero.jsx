@@ -8,10 +8,7 @@ import {
 
 const Hero = () => {
   return (
-    <section
-      className="py-20 bg-gradient-to-br from-blue-50 to-indigo-100"
-      
-    >
+    <section className="py-20 bg-gradient-to-br from-blue-50 to-indigo-100">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center justify-between">
           <div className="lg:w-1/2 mb-10 lg:mb-0">
@@ -25,9 +22,11 @@ const Hero = () => {
               sellers, and investors.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <button className="px-8 py-4 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors inline-flex items-center justify-center text-lg font-semibold">
-                Contact us <FaArrowRight className="ml-2" />
-              </button>
+              <a href="tel:+6362341626">
+                <button className="px-8 py-4 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors inline-flex items-center justify-center text-lg font-semibold">
+                  Contact us <FaArrowRight className="ml-2" />
+                </button>
+              </a>
             </div>
             <div className="grid grid-cols-3 gap-6 text-center">
               <div>

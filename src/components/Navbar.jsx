@@ -41,9 +41,11 @@ const Navbar = () => {
             </a>
           </nav>
           <div className="hidden md:flex space-x-4">
-            <button className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">
-              Contact
-            </button>
+            <a href="tel:+6362341626">
+              <button className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">
+                Contact
+              </button>
+            </a>
           </div>
           <div className="md:hidden">
             <button

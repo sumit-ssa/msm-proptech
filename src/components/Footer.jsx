@@ -68,7 +68,8 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
+        <div className="w-full flex items-center justify-between mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
+          <p>Powered by - VISALAKSHI HOUSING PROJECTS </p>
           <p>
             &copy; {new Date().getFullYear()} MSM Proptech. All rights reserved.
           </p>
