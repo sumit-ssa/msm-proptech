@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "../assets/logo-msm.jpeg";
 
 const Footer = () => {
   return (
@@ -6,7 +7,8 @@ const Footer = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">MSM Proptech</h3>
+            <img src={logo} alt="Logo" className="" />
+            <h3 className="text-lg font-semibold my-4">MSM Proptech</h3>
             <p className="text-gray-400">
               Your Trusted Real Estate Partner in India
             </p>
