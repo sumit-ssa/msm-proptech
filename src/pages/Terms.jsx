@@ -13,8 +13,8 @@ const Terms = () => {
         </h1>
         <div className="bg-white rounded-lg shadow-md p-8">
           <p className="mb-4">
-            Welcome to MSM Proptech. By using our website and services, you
-            agree to the following terms:
+            Welcome to MSM Reality. By using our website and services, you agree
+            to the following terms:
           </p>
 
           <h2 className="text-2xl font-semibold mt-6 mb-2">Services</h2>

@@ -11,7 +11,7 @@ const Privacy = () => {
         <h1 className="text-4xl font-bold text-center mb-8">Privacy Policy</h1>
         <div className="bg-white rounded-lg shadow-md p-8">
           <p className="mb-4">
-            At MSM Proptech, we are committed to protecting your privacy and
+            At MSM Reality, we are committed to protecting your privacy and
             ensuring the security of your personal information.
           </p>
           <p className="mb-4">
@@ -20,7 +20,7 @@ const Privacy = () => {
           </p>
           <p className="mb-4">
             We only collect information that is necessary for providing our real
-            estate services and improving your experience with MSM Proptech.
+            estate services and improving your experience with MSM Reality.
           </p>
           <p className="mb-4">
             Your data is handled with utmost care and in compliance with
@@ -29,7 +29,7 @@ const Privacy = () => {
           <p>
             For more detailed information about our privacy practices or to
             exercise your rights regarding your personal data, please contact us
-            at msmproptech@gmail.com.
+            at msmReality@gmail.com.
           </p>
         </div>
       </div>

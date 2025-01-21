@@ -9,11 +9,11 @@ const About = () => {
     <div className="bg-gray-100 py-20">
       <div className="container mx-auto px-6">
         <h1 className="text-4xl font-bold text-center mb-8">
-          About MSM Proptech
+          About MSM Reality
         </h1>
         <div className="bg-white rounded-lg shadow-md p-8">
           <p className="text-lg mb-6">
-            MSM Proptech is a trusted real estate company in India that connects
+            MSM Reality is a trusted real estate company in India that connects
             clients with ideal properties. With our experienced team and
             extensive network, we provide comprehensive real estate solutions
             tailored to meet your unique needs.
@@ -36,7 +36,7 @@ const About = () => {
           </p>
           <div className="mt-6">
             <p>
-              <strong>Email:</strong> msmproptech@gmail.com
+              <strong>Email:</strong> msmReality@gmail.com
             </p>
             <p>
               <strong>Phone:</strong> 6362341626

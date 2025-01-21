@@ -17,7 +17,7 @@ const Hero = () => {
               Experience
             </h1>
             <p className="text-xl text-gray-700 mb-8 max-w-2xl">
-              MSM Proptech brings cutting-edge technology to India&#39;s real
+              MSM Reality brings cutting-edge technology to India&#39;s real
               estate market, offering unparalleled solutions for buyers,
               sellers, and investors.
             </p>
@@ -46,7 +46,7 @@ const Hero = () => {
           <div className="lg:w-1/2 relative">
             <img
               src={hero}
-              alt="MSM Proptech Dashboard"
+              alt="MSM Reality Dashboard"
               className="rounded-2xl shadow-2xl"
             />
             <div className="absolute -bottom-10 -left-10 bg-white p-4 hidden lg:block rounded-xl shadow-lg">

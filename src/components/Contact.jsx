@@ -3,7 +3,7 @@ const Contact = () => {
     <section className="py-20 bg-blue-100" id="contact">
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-3xl font-bold mb-8">Contact Us Today</h2>
-        <p className="text-xl mb-8">Explore your options with MSM Proptech</p>
+        <p className="text-xl mb-8">Explore your options with MSM Reality</p>
         <div className="flex justify-center space-x-4">
           <a
             href="tel:6362341626"

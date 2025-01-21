@@ -5,7 +5,7 @@ import Services from "../components/Services";
 
 const Home = () => {
   return (
-    <div className="" >
+    <div className="">
       <Hero />
       <hr />
       <Services />

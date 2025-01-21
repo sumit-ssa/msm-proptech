@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <img src={logo} alt="Logo" className="" />
-            <h3 className="text-lg font-semibold my-4">MSM Proptech</h3>
+            <h3 className="text-lg font-semibold my-4">MSM Reality</h3>
             <p className="text-gray-400">
               Your Trusted Real Estate Partner in India
             </p>
@@ -59,7 +59,7 @@ const Footer = () => {
                 Phone : 6362341626
               </li>
               <li className="text-gray-400 hover:text-white transition-colors">
-                Email : msmproptech@gmail.com
+                Email : msmReality@gmail.com
               </li>
               <li className="text-gray-400 hover:text-white transition-colors">
                 Address : Visalakshi Prakruthi office, Thanisandra Main Road
@@ -71,7 +71,7 @@ const Footer = () => {
         <div className="w-full flex items-center justify-between mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
           <p>Powered by - VISALAKSHI HOUSING PROJECTS </p>
           <p>
-            &copy; {new Date().getFullYear()} MSM Proptech. All rights reserved.
+            &copy; {new Date().getFullYear()} MSM Reality. All rights reserved.
           </p>
         </div>
       </div>

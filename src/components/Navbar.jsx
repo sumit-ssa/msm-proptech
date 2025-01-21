@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from "../assets/logo-msm.jpeg";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
@@ -21,12 +21,12 @@ const Navbar = () => {
             >
               Home
             </Link>
-            <NavLink
-              to={"#services"}
+            <a
+              href={"#services"}
               className="text-gray-600 hover:text-blue-600 transition-colors"
             >
               Services
-            </NavLink>
+            </a>
             <a
               href={"#whyus"}
               className="text-gray-600 hover:text-blue-600 transition-colors"
@@ -40,13 +40,7 @@ const Navbar = () => {
               Contact
             </a>
           </nav>
-          <div className="hidden md:flex space-x-4">
-            <a href="tel:+6362341626">
-              <button className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">
-                Contact
-              </button>
-            </a>
-          </div>
+
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
